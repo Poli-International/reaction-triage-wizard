@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <script>
+    if (window.self !== window.top) {
+      document.documentElement.setAttribute('data-theme', 'dark');
+      window.addEventListener('message', function(e) {
+        if (e.data && e.data.type === 'poli-theme') {
+          document.documentElement.setAttribute('data-theme', e.data.light ? 'light' : 'dark');
+        }
+      });
+    }
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Identify whether your tattoo or piercing reaction is normal healing, irritation, infection, or allergy with this step-by-step triage wizard. Get the right action for your symptoms.">
+  <title>Tattoo & Piercing Reaction Triage Wizard | Poli International</title>
+  <link rel="stylesheet" href="/tools/reaction-triage-wizard/css/style.css">
+</head>
+<body>
+<div class="tool-wrapper">
+
+  <header class="tool-header">
+    <div class="tool-header__badge">🔍 Symptom Triage</div>
+    <h1>Tattoo & Piercing Reaction Triage Wizard</h1>
+    <p>Answer a few questions to identify whether your reaction is normal healing, irritation, possible infection, or something that needs medical attention.</p>
+  </header>
+
+  <div id="wizard"></div>
+
+  <div class="disclaimer">
+    <strong>Important:</strong> This tool provides educational guidance only. If you experience fever, rapidly
+    spreading redness, significant swelling, or feel unwell after a procedure, seek medical attention
+    immediately — do not wait for an online tool to advise you.
+  </div>
+
+</div>
+<script src="/tools/reaction-triage-wizard/js/app.js"></script>
+</body>
+</html>
